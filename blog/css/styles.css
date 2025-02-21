@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+
+body {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    font-size: 18px;
+}
+
+header {
+    background-color: #f4f4f4;
+    color: #808080;
+    text-align: center;
+    font-size: 22px;
+}
+
+main {
+    max-width: 750px;
+    margin: 10px auto;
+    padding: 0 20px;
+}
+
+.blog-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.blog-paragraph {
+    font-size: 16px;
+}
+
+.blog-post {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.blog-post h2 {
+    margin-bottom: 5px;
+    color: #808080;
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.date {
+    font-size: 15px;
+    color: #0073e6;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.excerpt {
+    font-size: 16px;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+.read-more {
+    display: inline-block;
+    margin-top: 5px;
+    color: #0073e6;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.read-more:hover {
+
+}
+
+.tags {
+    margin-top: 5px;
+}
+
+.tags span {
+    background: #808080;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 5px;
+    font-size: 12px;
+    margin-right: 3px;
+}
+
+b, strong {
+    font-weight: 500;
+    color: #808080;
+}
